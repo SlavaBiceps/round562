@@ -10,8 +10,9 @@ int main() {
             cout << "YES";
             return 0;
         }
-        a=(a+1)%n;
+        a++;
         b--;
+        if (a==(n+1)){a=1;}
         if (b==0){b=n;}
     }
 
